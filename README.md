@@ -1,6 +1,6 @@
 # Fallout 1 
 
-![logo](fallout.png)
+![logo](logo.png)
 
 There is a bugged event walking on the global map in the path between the
 Boneyard Downton and The HUB, which leads to an `ACCESS_VIOLATION` due to a null
