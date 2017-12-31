@@ -7,6 +7,11 @@ Boneyard Downton and The HUB, which leads to an `ACCESS_VIOLATION` due to a null
 pointer. This patch fixes this bug in the high resolution version aswell in the
 normal one.
 
+This patch fixes the following bugs:
+
+ * `The instruction at 0049cb85 referenced memory at 00000064 The memory could not be read from` on `falloutwHR.exe`.
+ * `The instruction at 0049c675 referenced memory at 00000064 The memory could not be read from` on `falloutw.exe`.
+
 # Applying the patch
 
 # Explanation for Fallout High Resolution patch
