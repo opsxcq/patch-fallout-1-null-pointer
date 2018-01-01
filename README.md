@@ -19,13 +19,13 @@ fallout folder and run the respective for your version, but before check the
 hashes to confirm your version.
 
  * `falloutw.exe` 
-    Patch: `patch-normal.c`
-    Original hash `2e5366621972b52c27fdf5576b9cb79c`
-    Patched hash `8f86405e27199253597960845d1915c7`
+    * Patch: `patch-normal.c`
+    * Original hash `2e5366621972b52c27fdf5576b9cb79c`
+    * Patched hash `8f86405e27199253597960845d1915c7`
  * `falloutwHR.exe`
-    Patch: `patch-hr.c`
-    Original hash `212d7b66f75b3c19acbbcb818e6f13bf`
-    Patched hash `37116638bc3d951bb540acc30ef83427`
+    * Patch: `patch-hr.c`
+    * Original hash `212d7b66f75b3c19acbbcb818e6f13bf`
+    * Patched hash `37116638bc3d951bb540acc30ef83427`
 
 Bellow there is an explanation of what changed in the files, if you are paranoid
 and want to know what is happening to your binaries.
