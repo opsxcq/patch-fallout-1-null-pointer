@@ -1,4 +1,4 @@
-# Fallout 1 
+# Fallout 1 bugfix
 
 ![logo](logo.png)
 
