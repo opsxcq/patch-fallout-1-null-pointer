@@ -23,7 +23,9 @@ int main(void) {
   fseek(gameFile, hookOffset, SEEK_SET);
   fwrite(&hookFunction, sizeof(hookFunction)-1, 1, gameFile);
 
+  printf("[+] Game patched\n");
   fclose(gameFile);
+
   return 0;
 }
 
