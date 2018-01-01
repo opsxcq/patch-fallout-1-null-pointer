@@ -14,6 +14,19 @@ This patch fixes the following bugs:
 
 # Applying the patch
 
+Just copy the patches to your fallout folder and run the respective for your
+version, but before check the hashes to confirm your version.
+
+ * `falloutw.exe` 
+    Original hash `2e5366621972b52c27fdf5576b9cb79c`
+    Patched hash `8f86405e27199253597960845d1915c7`
+ * `falloutwHR.exe`
+    Original hash `212d7b66f75b3c19acbbcb818e6f13bf`
+    Patched hash `37116638bc3d951bb540acc30ef83427`
+
+The source code of the patches are in this repo too, and bellow there is an
+explanation of what changed in the files.
+
 # Explanation for Fallout High Resolution patch
 
 ![print](print-high-resolution.png)

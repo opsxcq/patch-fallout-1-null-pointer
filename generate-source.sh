@@ -12,6 +12,6 @@ for line in $(cat $1 | grep ':')
 do
     byteOffset=$(echo $line | cut -d ':' -f 1)
     byteValue=$(echo $line | cut -d '>' -f 2 | tr -d '\n')
-    echo '  fseek(gameFile, 0, 0x'${byteOffset}');'
+    echo '  fseek(gameFile, 0x'${byteOffset}', SEEK_SET);'
     echo  "  fwrite((void *) \"\x$byteValue\", 1, 1, gameFile);"
 done
