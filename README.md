@@ -2,10 +2,10 @@
 
 ![logo](logo.png)
 
-There is a bugged event walking on the global map in the path between the
-Boneyard Downton and The HUB, which leads to an `ACCESS_VIOLATION` due to a null
-pointer. This patch fixes this bug in the high resolution version aswell in the
-normal one.
+There is a bugged event triggered when you walk on the global map in the path
+between the Boneyard Downton and The HUB, which leads to an `ACCESS_VIOLATION`
+due to a null pointer. This patch fixes this bug in the high resolution version
+aswell in the normal one.
 
 This patch fixes the following bugs:
 
