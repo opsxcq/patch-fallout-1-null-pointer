@@ -14,9 +14,9 @@ This patch fixes the following bugs:
 
 # Applying the patch
 
-Just compile (`gcc patch-<your-version>.c -o patch.exe`) and copy it to your
-fallout folder and run the respective for your version, but before check the
-hashes to confirm your version.
+Just compile (`gcc patch-<your-version>.c -o patch.exe`) and copy it to the
+folder where your fallout is installed. Then run the respective patch for your
+version, but before check the hashes to confirm your version.
 
  * `falloutw.exe` 
     * Patch: `patch-normal.c`
